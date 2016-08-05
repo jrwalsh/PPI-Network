@@ -1,0 +1,9 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+DNA_pol3_alpha	PF07733	3	3	0
+tRNA_anti-codon	PF01336	3	0	3
+DUF1743	PF08489	3	3	0
+Rep_fac-A_3	PF08661	17	0	17
+STN1_2	PF09170	1	1	0
+Rep_fac-A_C	PF08646	4	0	4
+tRNA-synt_2	PF00152	147	79	68
+

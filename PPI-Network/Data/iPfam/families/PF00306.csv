@@ -1,0 +1,13 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+ATP-synt_D	PF01813	26	0	26
+Mt_ATP-synt_D	PF05873	2	0	2
+ATP-synt_DE_N	PF02823	3	0	3
+ATP-synt	PF00231	284	1	283
+IATP	PF04568	7	0	7
+ATP-synt_F	PF01990	2	0	2
+ATP-synt_DE	PF00401	21	1	20
+ATP-synt_ab_N	PF02874	21	0	21
+ATP-synt_Eps	PF04627	1	0	1
+ATP-synt_ab_C	PF00306	244	4	240
+ATP-synt_ab	PF00006	783	448	335
+

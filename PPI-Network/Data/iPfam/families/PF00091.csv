@@ -1,0 +1,12 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+MT	PF12777	4	0	4
+Kinesin	PF00225	7	0	7
+Tubulin	PF00091	92	0	92
+Tubulin_C	PF03953	238	144	94
+DCX	PF03607	3	0	3
+Thioredoxin	PF00085	2	0	2
+CH	PF00307	2	0	2
+Stathmin	PF00836	76	0	76
+Ank_2	PF12796	4	0	4
+FtsZ_C	PF12327	58	49	9
+

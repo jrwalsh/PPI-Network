@@ -1,0 +1,9 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Intein_splicing	PF14890	4	4	0
+DNA_pol_B_exo1	PF03104	371	341	30
+PCNA_N	PF00705	1	0	1
+DNA_pol_B	PF00136	169	135	34
+MHC_II_beta	PF00969	2	0	2
+PCNA_C	PF02747	1	0	1
+MHC_II_alpha	PF00993	2	0	2
+

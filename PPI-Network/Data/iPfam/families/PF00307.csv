@@ -1,0 +1,15 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Actin	PF00022	18	0	18
+Spectrin	PF00435	3	2	1
+Tubulin	PF00091	2	0	2
+Paxillin	PF03535	1	0	1
+Tubulin_C	PF03953	2	0	2
+RhoGEF	PF00621	2	2	0
+EFhand_Ca_insen	PF08726	2	0	2
+PH	PF00169	2	2	0
+Pkinase_Tyr	PF07714	3	0	3
+fn3	PF00041	5	0	5
+CH	PF00307	81	43	38
+EF-hand_7	PF13499	1	0	1
+EF-hand_1	PF00036	1	0	1
+

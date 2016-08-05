@@ -1,0 +1,23 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Trypsin	PF00089	6	0	6
+Cytochrom_B558a	PF05038	2	0	2
+DUF3513	PF12026	1	0	1
+Asp	PF00026	1	0	1
+Pkinase_Tyr	PF07714	26	26	0
+PB1	PF00564	1	1	0
+P53	PF00870	11	0	11
+SH3_1	PF00018	68	7	61
+Guanylate_kin	PF00625	2	2	0
+p47_phox_C	PF08944	2	1	1
+Ank	PF00023	14	14	0
+Spectrin	PF00435	47	42	5
+SAMP	PF05924	1	0	1
+SH3_2	PF07653	3	1	2
+ubiquitin	PF00240	1	0	1
+SH2	PF00017	35	12	23
+SH3_9	PF14604	1	1	0
+Ank_2	PF12796	4	4	0
+ITAM	PF02189	1	0	1
+F-protein	PF00469	14	0	14
+LIM	PF00412	1	0	1
+

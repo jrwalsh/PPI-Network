@@ -1,0 +1,21 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+NMDAR2_C	PF10565	4	0	4
+Trypsin	PF00089	71	64	7
+Porin_1	PF00267	5	0	5
+PDZ	PF00595	213	39	174
+Metallophos	PF00149	3	0	3
+MAGUK_N_PEST	PF10608	36	26	10
+PID	PF00640	1	1	0
+DUF4136	PF13590	1	1	0
+Lys	PF00062	6	0	6
+Peptidase_M50	PF02163	17	10	7
+SH3_2	PF07653	12	6	6
+EBP50_C-term	PF09007	1	1	0
+Ras	PF00071	2	0	2
+Syndecan	PF01034	6	0	6
+Trypsin_2	PF13365	99	68	31
+Cadherin_C	PF01049	1	0	1
+PDZ_assoc	PF10600	36	29	7
+SAM_1	PF00536	1	0	1
+EB1_binding	PF05937	12	0	12
+

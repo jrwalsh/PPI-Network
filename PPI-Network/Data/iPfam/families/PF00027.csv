@@ -1,0 +1,9 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+RasGEF_N	PF00618	1	1	0
+Acetyltransf_3	PF13302	1	1	0
+DUF3539	PF12058	4	0	4
+Crp	PF00325	73	66	7
+Pkinase	PF00069	18	0	18
+cNMP_binding	PF00027	103	9	94
+HTH_Crp_2	PF13545	118	60	58
+

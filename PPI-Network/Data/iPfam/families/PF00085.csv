@@ -1,0 +1,20 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Tubulin	PF00091	2	0	2
+Kunitz_legume	PF00197	1	0	1
+DNA_pol_A	PF00476	19	0	19
+Evr1_Alr	PF04777	13	13	0
+FeThRed_A	PF02941	3	0	3
+Thioredoxin	PF00085	177	6	171
+Exo_endo_phos	PF03372	2	0	2
+PAPS_reduct	PF01507	1	0	1
+Redoxin	PF08534	1	0	1
+Pyr_redox_2	PF07992	10	0	10
+PMSR	PF01625	1	0	1
+Pyr_redox	PF00070	4	0	4
+LMWPc	PF01451	1	0	1
+DnaJ	PF00226	6	4	2
+Thioredoxin_6	PF13848	13	13	0
+Thioredoxin_3	PF13192	1	1	0
+RHD	PF00554	3	0	3
+FeThRed_B	PF02943	4	0	4
+

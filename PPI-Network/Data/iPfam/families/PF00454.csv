@@ -1,0 +1,12 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Ras	PF00071	1	0	1
+PI3_PI4_kinase	PF00454	4	0	4
+SH2	PF00017	1	0	1
+FATC	PF02260	4	4	0
+PI3K_rbd	PF00794	95	94	1
+FAT	PF02259	6	6	0
+Rapamycin_bind	PF08771	4	4	0
+PI3Ka	PF00613	114	111	3
+WD40	PF00400	30	0	30
+PI3K_C2	PF00792	65	65	0
+

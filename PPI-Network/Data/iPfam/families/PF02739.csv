@@ -1,0 +1,7 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+DNA_pol_A	PF00476	1	1	0
+RNaseH_C	PF09293	6	6	0
+Taq-exonuc	PF09281	1	1	0
+5_3_exonuc	PF01367	22	18	4
+5_3_exonuc_N	PF02739	3	0	3
+

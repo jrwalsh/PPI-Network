@@ -1,0 +1,28 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+IL7	PF01415	3	0	3
+IL15	PF02372	1	0	1
+V-set	PF07686	3	0	3
+MatE	PF01554	4	0	4
+Lipocalin	PF00061	2	0	2
+ig	PF00047	1	1	0
+IL4	PF00727	5	0	5
+Glyco_hydro_28	PF00295	5	3	2
+I-set	PF07679	11	9	2
+RGM_N	PF06535	3	0	3
+Pkinase	PF00069	1	1	0
+Lectin_C	PF00059	2	0	2
+LIF_OSM	PF01291	2	0	2
+IL6Ra-bind	PF09240	43	33	10
+EPO_TPO	PF00758	4	0	4
+HH_signal	PF01085	24	0	24
+Hormone_recep	PF00104	1	0	1
+IL2	PF00715	23	4	19
+Pectate_lyase_3	PF12708	1	1	0
+fn3	PF00041	121	59	62
+EpoR_lig-bind	PF09067	36	32	4
+CH	PF00307	5	0	5
+Hormone_1	PF00103	17	0	17
+RGM_C	PF06534	6	0	6
+Ig_2	PF13895	1	1	0
+IL6	PF00489	2	0	2
+

@@ -1,0 +1,23 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+PPP5	PF08321	28	26	2
+Mre11_DNA_bind	PF04152	12	12	0
+Rb_C	PF08934	1	0	1
+PDZ	PF00595	3	0	3
+Pro_isomerase	PF00160	3	0	3
+Metallophos	PF00149	69	0	69
+Metallophos_C	PF14008	29	23	6
+5_nucleotid_C	PF02872	31	29	2
+LCM	PF04072	1	0	1
+Shugoshin_N	PF07558	1	0	1
+FKBP_C	PF00254	1	0	1
+TPR_1	PF00515	4	4	0
+IPP-2	PF04979	4	0	4
+EF-hand_7	PF13499	10	0	10
+B56	PF01603	9	0	9
+EF-hand_1	PF00036	1	0	1
+SbcCD_C	PF13558	1	0	1
+Abhydrolase_6	PF12697	1	0	1
+Ank_2	PF12796	1	0	1
+HEAT_2	PF13646	7	0	7
+SbcD_C	PF12320	6	6	0
+

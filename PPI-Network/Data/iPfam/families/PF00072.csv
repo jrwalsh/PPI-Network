@@ -1,0 +1,25 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Sigma54_activat	PF00158	4	0	4
+Trans_reg_C	PF00486	12	10	2
+PAS	PF00989	1	0	1
+EAL	PF00563	1	1	0
+Response_reg	PF00072	205	11	194
+HATPase_c	PF02518	5	0	5
+ECH	PF00378	6	0	6
+ANTAR	PF03861	2	2	0
+CheY-binding	PF09078	13	0	13
+HTH_8	PF02954	1	1	0
+P2	PF07194	1	0	1
+CheZ	PF04344	4	0	4
+TPR_12	PF13424	2	0	2
+SPOB_a	PF14689	18	0	18
+SPOB_ab	PF14682	11	0	11
+HisKA	PF00512	5	0	5
+GerE	PF00196	9	7	2
+GGDEF	PF00990	2	2	0
+His_biosynth	PF00977	1	1	0
+RcsC	PF09456	1	1	0
+CheB_methylest	PF01339	3	2	1
+Hpt	PF01627	17	0	17
+CheC	PF04509	1	0	1
+

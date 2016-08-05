@@ -1,0 +1,19 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+MSP	PF01716	61	0	61
+PsbJ	PF01788	23	1	22
+PSII	PF00421	2	2	0
+PsbI	PF02532	23	0	23
+PsbX	PF06596	1	0	1
+Photo_RC	PF00124	110	0	110
+PsbH	PF00737	23	0	23
+PsbU	PF06514	45	0	45
+PsbL	PF02419	26	0	26
+Cytochrom_C550	PF14495	21	0	21
+PsbT	PF01405	45	0	45
+Cytochrom_B559	PF00283	1	0	1
+Cytochrom_C	PF00034	3	0	3
+PsbK	PF02533	19	1	18
+Ycf9	PF01737	22	0	22
+PSII_Ycf12	PF05969	7	0	7
+PsbM	PF05151	23	0	23
+

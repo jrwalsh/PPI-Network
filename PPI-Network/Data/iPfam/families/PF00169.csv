@@ -1,0 +1,19 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+IRS	PF02174	2	2	0
+FERM_M	PF00373	3	3	0
+RhoGEF	PF00621	26	17	9
+PH	PF00169	52	0	52
+RA	PF00788	5	5	0
+Pkinase	PF00069	2	2	0
+CH	PF00307	2	2	0
+Ras	PF00071	9	0	9
+Sif	PF06767	2	0	2
+Sec7	PF01369	2	2	0
+SH3_9	PF14604	2	2	0
+BTK	PF00779	11	11	0
+Arf	PF00025	11	0	11
+Histone	PF00125	1	1	0
+Dynamin_M	PF01031	2	1	1
+WD40	PF00400	21	0	21
+C1_1	PF00130	5	5	0
+

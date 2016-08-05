@@ -1,0 +1,15 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+7tm_1	PF00001	1	0	1
+PLC-beta_C	PF08703	1	0	1
+RhoGEF	PF00621	2	0	2
+RGS-like	PF09128	11	0	11
+PI-PLC-Y	PF00387	2	0	2
+PDE6_gamma	PF04868	1	0	1
+EF-hand_like	PF09279	2	0	2
+GMP_PDE_delta	PF05351	6	0	6
+RGS	PF00615	24	0	24
+Guanylate_cyc	PF00211	16	0	16
+GoLoco	PF02188	16	0	16
+WD40	PF00400	33	0	33
+G-alpha	PF00503	36	6	30
+

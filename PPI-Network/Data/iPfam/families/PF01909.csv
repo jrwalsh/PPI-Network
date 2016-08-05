@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+PAP_assoc	PF03828	4	4	0
+tRNA_NucTransf2	PF09249	48	44	4
+PAP_RNA-bind	PF04926	2	2	0
+PAP_central	PF04928	13	11	2
+NTP_transf_2	PF01909	3	0	3
+DNA_pol_B_thumb	PF14791	5	5	0
+DNA_pol_lambd_f	PF10391	3	3	0
+OAS1_C	PF10421	3	3	0
+KNTase_C	PF07827	4	2	2
+

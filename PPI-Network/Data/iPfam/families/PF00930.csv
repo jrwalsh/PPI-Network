@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Spike_rec_bind	PF09408	1	0	1
+TolB_N	PF04052	9	0	9
+OmpA	PF00691	12	0	12
+DPPIV_N	PF00930	128	0	128
+Cloacin	PF03515	4	0	4
+A_deaminase	PF00962	8	0	8
+Peptidase_S9	PF00326	472	248	224
+PD40	PF07676	30	30	0
+Hormone_3	PF00159	2	0	2
+

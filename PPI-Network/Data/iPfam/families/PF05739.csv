@@ -1,0 +1,10 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Peptidase_M27	PF01742	2	0	2
+Synaphin	PF05835	24	0	24
+V-SNARE_C	PF12352	4	0	4
+Syntaxin	PF00804	5	5	0
+SNAP-25	PF00835	28	20	8
+Sec1	PF00995	4	0	4
+SNARE	PF05739	48	3	45
+Synaptobrevin	PF00957	64	0	64
+

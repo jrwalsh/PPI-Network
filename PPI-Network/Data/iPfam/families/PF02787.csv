@@ -1,0 +1,7 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+GATase	PF00117	40	0	40
+CPSase_sm_chain	PF00988	40	0	40
+CPSase_L_D3	PF02787	20	0	20
+CPSase_L_D2	PF02786	40	40	0
+CPSase_L_chain	PF00289	40	40	0
+

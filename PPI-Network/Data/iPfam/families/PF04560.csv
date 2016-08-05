@@ -1,0 +1,13 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Sigma70_r3	PF04539	26	0	26
+RNA_pol_Rpb1_5	PF04998	169	0	169
+S1	PF00575	5	0	5
+RNA_pol_Rpb1_2	PF00623	163	0	163
+RNA_pol_Rpb1_1	PF04997	208	1	207
+RNA_pol_Rpb6	PF01192	153	0	153
+RNA_pol_Rpb1_3	PF04983	156	0	156
+RNA_pol_Rpb2_6	PF00562	161	161	0
+RNA_pol_L	PF01193	1	0	1
+TF_Zn_Ribbon	PF08271	1	0	1
+SHS2_Rpb7-N	PF03876	59	0	59
+

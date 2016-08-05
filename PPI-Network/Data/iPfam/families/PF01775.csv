@@ -1,0 +1,23 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Ribosomal_L14e	PF01929	8	0	8
+Ribosomal_L2	PF00181	1	0	1
+Ribosomal_L38e	PF01781	3	0	3
+Ribosomal_L6	PF00347	1	0	1
+Ribosomal_L30	PF00327	2	0	2
+Ribosomal_L18e	PF00828	1	1	0
+Ribosomal_L18p	PF00861	1	0	1
+Ribosomal_L36e	PF01158	4	0	4
+KOW	PF00467	4	0	4
+Peptidase_M24	PF00557	1	0	1
+ubiquitin	PF00240	4	1	3
+Ribosomal_L16	PF00252	4	0	4
+Ribosomal_L29	PF00831	1	0	1
+Ribosomal_L30_N	PF08079	7	0	7
+Ribosomal_L19e	PF01280	2	0	2
+Ribosomal_L10	PF00466	3	2	1
+Ribosomal_L11	PF00298	1	0	1
+Ribosomal_L24e	PF01246	1	0	1
+Ribosomal_60s	PF00428	2	1	1
+Ribosomal_L34e	PF01199	1	0	1
+Ribosomal_L40e	PF01020	2	1	1
+

@@ -1,0 +1,9 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Cation_ATPase_C	PF00689	6	0	6
+E1-E2_ATPase	PF00122	90	77	13
+Na_K-ATPase	PF00287	16	0	16
+ATP1G1_PLM_MAT8	PF02038	10	0	10
+Sarcolipin	PF05366	1	0	1
+Hydrolase	PF00702	77	76	1
+Cation_ATPase_N	PF00690	10	8	2
+

@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+V-set	PF07686	1	0	1
+MHC_I	PF00129	1	0	1
+COX1	PF00115	78	0	78
+COX5A	PF02284	51	0	51
+COX6C	PF02937	51	0	51
+COX6A	PF02046	21	0	21
+COX4	PF02936	51	0	51
+COX7B	PF05392	51	0	51
+COX2	PF00116	77	77	0
+

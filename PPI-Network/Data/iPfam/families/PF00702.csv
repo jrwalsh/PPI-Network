@@ -1,0 +1,7 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Cation_ATPase_C	PF00689	77	76	1
+HMA	PF00403	4	2	2
+E1-E2_ATPase	PF00122	113	107	6
+Hydrolase	PF00702	51	0	51
+Cation_ATPase_N	PF00690	2	0	2
+

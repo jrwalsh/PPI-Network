@@ -1,0 +1,12 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+AAA	PF00004	3	0	3
+RNase_HII	PF01351	2	0	2
+DNA_pol_B	PF00136	1	0	1
+ubiquitin	PF00240	7	1	6
+XPG_N	PF00752	1	0	1
+XPG_I	PF00867	1	0	1
+PCNA_N	PF00705	244	134	110
+CDC27	PF09507	3	0	3
+PCNA_C	PF02747	18	0	18
+RNase_H2-Ydr279	PF09468	6	0	6
+

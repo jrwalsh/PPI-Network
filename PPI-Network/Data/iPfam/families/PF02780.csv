@@ -1,0 +1,8 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+DXP_synthase_N	PF13292	7	7	0
+Transketolase_C	PF02780	60	0	60
+Transket_pyr	PF02779	277	157	120
+Transketolase_N	PF00456	48	0	48
+E1_dh	PF00676	74	0	74
+E3_binding	PF02817	20	0	20
+

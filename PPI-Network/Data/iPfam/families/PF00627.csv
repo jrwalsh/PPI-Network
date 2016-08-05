@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+XPC-binding	PF09280	1	1	0
+UCH	PF00443	9	9	0
+ubiquitin	PF00240	16	0	16
+UBA	PF00627	34	0	34
+NAC	PF01849	1	1	0
+EF_TS	PF00889	20	20	0
+Ago_hook	PF10427	1	1	0
+GTP_EFTU	PF00009	20	13	7
+UQ_con	PF00179	14	8	6
+

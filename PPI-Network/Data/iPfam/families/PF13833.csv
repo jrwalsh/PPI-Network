@@ -1,0 +1,20 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Death	PF00531	2	0	2
+EF-hand_6	PF13405	16	16	0
+Pkinase	PF00069	1	1	0
+Peptidase_C2	PF00648	1	0	1
+Calpain_III	PF01067	5	0	5
+Calpain_inhib	PF00748	7	0	7
+Shal-type	PF11601	11	0	11
+CaMBD	PF02888	3	0	3
+BTB_2	PF02214	9	0	9
+Troponin	PF00992	12	0	12
+EF-hand_7	PF13499	432	399	33
+MARCKS	PF02063	1	0	1
+EF-hand_8	PF13833	37	1	36
+Myosin_head	PF00063	1	0	1
+EF-hand_1	PF00036	33	33	0
+Ca_chan_IQ	PF08763	16	0	16
+EF-hand_5	PF13202	11	10	1
+DUF1880	PF08976	8	4	4
+

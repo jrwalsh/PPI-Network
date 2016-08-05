@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+EspF	PF04806	1	0	1
+RhoGEF	PF00621	3	2	1
+PH	PF00169	2	2	0
+ubiquitin	PF00240	2	0	2
+FCH	PF00611	3	0	3
+SH3_1	PF00018	1	1	0
+Ank_2	PF12796	1	1	0
+SH3_9	PF14604	49	0	49
+Lys	PF00062	1	0	1
+

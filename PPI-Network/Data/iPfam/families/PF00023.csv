@@ -1,0 +1,16 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+SOCS_box	PF07525	1	1	0
+Ank_4	PF13637	21	17	4
+ArfGap	PF01412	4	4	0
+Ank_5	PF13857	1	0	1
+Pkinase	PF00069	11	0	11
+P53	PF00870	6	0	6
+SH3_1	PF00018	14	14	0
+Cupin_8	PF13621	2	0	2
+Adeno_knob	PF00541	2	0	2
+LAG1-DNAbind	PF09271	1	0	1
+Ank_2	PF12796	27	24	3
+Ank	PF00023	156	146	10
+Activator_LAG-3	PF11498	3	0	3
+LIM	PF00412	3	0	3
+

@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Peptidase_M14	PF00246	71	0	71
+Trypsin	PF00089	1	0	1
+CarbpepA_inh	PF02977	4	0	4
+Latexin	PF06907	3	0	3
+ACI44	PF15270	1	0	1
+CarboxypepD_reg	PF13620	13	8	5
+Inhibitor_I68	PF10468	6	0	6
+Propep_M14	PF02244	24	21	3
+Kunitz_BPTI	PF00014	3	0	3
+

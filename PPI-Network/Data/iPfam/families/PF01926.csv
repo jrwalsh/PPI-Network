@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+GTP1_OBG	PF01018	3	3	0
+TrmE_N	PF10396	3	1	2
+MMR_HSR1	PF01926	25	5	20
+MMR_HSR1_C	PF08438	1	1	0
+KH_2	PF07650	10	10	0
+KH_dom-like	PF14714	4	4	0
+YchF-GTPase_C	PF06071	9	7	2
+TGS	PF02824	2	2	0
+GTPase_Cys_C	PF12631	2	2	0
+

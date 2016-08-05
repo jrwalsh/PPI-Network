@@ -1,0 +1,11 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+RNA_pol_Rpb2_4	PF04566	109	109	0
+RNA_pol_Rpb1_5	PF04998	106	0	106
+RNA_pol_Rpb2_2	PF04561	92	92	0
+RNA_pol_Rpb2_3	PF04565	102	102	0
+RNA_pol_Rpb1_4	PF05000	106	0	106
+RNA_pol_Rpb2_6	PF00562	106	106	0
+RNA_pol_Rpb2_1	PF04563	12	12	0
+SHS2_Rpb7-N	PF03876	2	0	2
+TFIIS_C	PF01096	2	0	2
+

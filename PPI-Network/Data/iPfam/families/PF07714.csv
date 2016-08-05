@@ -1,0 +1,13 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+FERM_M	PF00373	4	3	1
+Inhibitor_Mig-6	PF11555	10	0	10
+EphA2_TM	PF14575	45	44	1
+Pkinase_Tyr	PF07714	307	1	306
+AvrPto	PF11592	1	0	1
+Pkinase	PF00069	1	0	1
+CH	PF00307	3	0	3
+SH3_1	PF00018	26	26	0
+SH2	PF00017	50	32	18
+Y_phosphatase	PF00102	4	0	4
+BPS	PF08947	1	0	1
+

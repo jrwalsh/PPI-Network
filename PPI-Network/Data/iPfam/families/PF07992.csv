@@ -1,0 +1,22 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Reductase_C	PF14759	20	20	0
+FCSD-flav_bind	PF09242	3	3	0
+Fer4_20	PF14691	6	6	0
+DAO	PF01266	1	0	1
+Rhodanese	PF00581	12	0	12
+Fer2_4	PF13510	1	1	0
+Pyr_redox	PF00070	598	417	181
+Glutaredoxin	PF00462	7	7	0
+Cytochrom_C	PF00034	1	0	1
+Fer2	PF00111	2	0	2
+AIF-MLS	PF14962	1	1	0
+Pyr_redox_dim	PF02852	697	375	322
+Thioredoxin	PF00085	10	0	10
+E3_binding	PF02817	7	0	7
+Rieske	PF00355	2	0	2
+Pyr_redox_2	PF07992	314	84	230
+Oxidored_FMN	PF00724	21	11	10
+ETF	PF01012	4	0	4
+AIF_C	PF14721	19	9	10
+Thioredoxin_3	PF13192	1	1	0
+

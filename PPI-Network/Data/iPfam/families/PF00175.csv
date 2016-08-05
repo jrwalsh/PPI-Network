@@ -1,0 +1,9 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+DHODB_Fe-S_bind	PF10418	3	3	0
+FAD_binding_6	PF00970	217	157	60
+NAD_binding_1	PF00175	30	0	30
+Flavodoxin_1	PF00258	25	23	2
+Fer2	PF00111	8	3	5
+Globin	PF00042	7	5	2
+FAD_binding_1	PF00667	50	40	10
+

@@ -1,0 +1,12 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+GMP_synt_C	PF00958	24	13	11
+CPSase_L_D3	PF02787	40	0	40
+CPSase_L_D2	PF02786	40	0	40
+CPSase_sm_chain	PF00988	40	40	0
+GATase	PF00117	8	0	8
+His_biosynth	PF00977	23	8	15
+Anth_synt_I_N	PF04715	6	0	6
+Chorismate_bind	PF00425	16	0	16
+CTP_synth_N	PF06418	9	9	0
+NAD_synthase	PF02540	10	2	8
+

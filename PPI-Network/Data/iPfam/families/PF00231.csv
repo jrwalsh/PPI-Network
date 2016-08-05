@@ -1,0 +1,13 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+ATP-synt_DE_N	PF02823	36	0	36
+ATP-synt	PF00231	3	0	3
+IATP	PF04568	3	0	3
+ATP-synt_C	PF00137	13	0	13
+ATP-synt_DE	PF00401	6	0	6
+ATP-synt_ab_N	PF02874	3	1	2
+ATP-synt_Eps	PF04627	33	0	33
+ATP-synt_ab_C	PF00306	284	1	283
+ATP-synt_ab	PF00006	351	1	350
+OSCP	PF00213	1	0	1
+HAS-barrel	PF09378	1	0	1
+

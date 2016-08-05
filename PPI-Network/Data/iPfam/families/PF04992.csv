@@ -1,0 +1,8 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+RNA_pol_Rpb1_5	PF04998	90	90	0
+RNA_pol_Rpb1_3	PF04983	90	90	0
+RNA_pol_Rpb5_C	PF01191	90	0	90
+RNA_pol_Rpb8	PF03870	83	0	83
+RNA_pol_Rpb6	PF01192	90	0	90
+TFIIS_C	PF01096	2	0	2
+

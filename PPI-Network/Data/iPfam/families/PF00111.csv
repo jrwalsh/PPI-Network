@@ -1,0 +1,20 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Complex1_51K	PF01512	15	0	15
+NADH_4Fe-4S	PF10589	15	0	15
+Reductase_C	PF14759	2	0	2
+Molybdopterin	PF00384	15	15	0
+NAD_binding_1	PF00175	8	3	5
+Fer2_2	PF01799	115	115	0
+Ald_Xan_dh_C	PF01315	158	44	114
+Molybdop_Fe4S4	PF04879	15	15	0
+FAD_binding_6	PF00970	7	3	4
+FAD_binding_5	PF00941	109	62	47
+Cytochrom_C	PF00034	1	0	1
+Ald_Xan_dh_C2	PF02738	117	44	73
+Fer2	PF00111	51	0	51
+CO_deh_flav_C	PF03450	56	52	4
+NADH-G_4Fe-4S_3	PF10588	15	15	0
+p450	PF00067	13	0	13
+Pyr_redox_2	PF07992	2	0	2
+FeThRed_B	PF02943	2	0	2
+

@@ -1,0 +1,27 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Tubulin	PF00091	4	0	4
+SOCS_box	PF07525	1	1	0
+Pkinase	PF00069	2	0	2
+Ets	PF00178	2	0	2
+Metallophos	PF00149	1	0	1
+SH3_1	PF00018	4	4	0
+Pre-SET	PF05033	2	1	1
+SET	PF00856	1	1	0
+LAG1-DNAbind	PF09271	4	0	4
+Ank	PF00023	27	24	3
+Arf	PF00025	2	2	0
+Synaptobrevin	PF00957	1	0	1
+MamL-1	PF09596	12	0	12
+CoA_binding_2	PF13380	4	0	4
+Ank_4	PF13637	60	48	12
+TIG	PF01833	8	0	8
+F_actin_cap_B	PF01115	1	0	1
+Ank_5	PF13857	4	4	0
+ArfGap	PF01412	14	10	4
+Longin	PF13774	1	0	1
+F-actin_cap_A	PF01267	1	0	1
+Cupin_8	PF13621	5	0	5
+SH3_9	PF14604	1	1	0
+Ank_2	PF12796	152	99	53
+LIM	PF00412	2	0	2
+

@@ -1,0 +1,7 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Complex1_51K	PF01512	16	16	0
+NADH_4Fe-4S	PF10589	16	16	0
+2Fe-2S_thioredx	PF01257	16	0	16
+SLBB	PF10531	24	0	24
+Poly_export	PF02563	48	24	24
+

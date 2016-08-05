@@ -1,0 +1,13 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+eRF1_3	PF03465	14	0	14
+eRF1_2	PF03464	6	0	6
+EF1_GNE	PF00736	6	0	6
+MHC_II_beta	PF00969	1	0	1
+EF_TS	PF00889	27	13	14
+GTP_EFTU_D3	PF03143	9	0	9
+RNA_replicase_B	PF03431	13	11	2
+GTP_EFTU	PF00009	119	108	11
+GTP_EFTU_D2	PF03144	120	110	10
+SmpB	PF01668	1	0	1
+MHC_II_alpha	PF00993	1	0	1
+

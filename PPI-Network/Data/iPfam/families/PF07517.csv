@@ -1,0 +1,8 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+SecG	PF03840	2	0	2
+SecA_SW	PF07516	38	32	6
+Helicase_C	PF00271	15	15	0
+SecA_DEAD	PF07517	2	0	2
+SecY	PF00344	2	0	2
+SecA_PP_bind	PF01043	29	29	0
+

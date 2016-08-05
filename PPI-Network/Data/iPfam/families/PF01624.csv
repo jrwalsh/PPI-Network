@@ -1,0 +1,6 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+MutS_II	PF05188	50	50	0
+MutS_I	PF01624	18	0	18
+MutS_III	PF05192	46	45	1
+MutS_IV	PF05190	4	4	0
+

@@ -1,0 +1,13 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Ribosomal_L39	PF00832	2	0	2
+Helicase_C	PF00271	2	0	2
+SecA_DEAD	PF07517	2	0	2
+Sec61_beta	PF03911	11	0	11
+Ribosomal_L29	PF00831	4	0	4
+SecA_PP_bind	PF01043	4	0	4
+SecG	PF03840	3	0	3
+SecA_SW	PF07516	4	0	4
+SecE	PF00584	8	0	8
+Ribosomal_L23	PF00276	4	0	4
+Plug_translocon	PF10559	12	12	0
+

@@ -1,0 +1,8 @@
+partner domain	accession	number of occurrences	number intrachain	number interchain
+Aldose_epim	PF01263	1	1	0
+Epimerase_Csub	PF13950	54	48	6
+Epimerase	PF01370	247	2	245
+DUF1731	PF08338	1	1	0
+Formyl_trans_N	PF00551	3	0	3
+Formyl_trans_C	PF02911	6	0	6
+
