@@ -31,12 +31,12 @@ if ($#ARGV < 0) {
 	exit;
 }
 
-#my $pfamPredictions = $ARGV[0];
-#my $ipfam = $ARGV[1];
-#my $org = $ARGV[2];
-my $pfamPredictions = "../Data/Arabidopsis/pfam_predictions.tab";
-my $ipfam = "../Data/iPfam/iPfam_domain_interactions.tab";
-my $org = "Ara";
+my $pfamPredictions = $ARGV[0];
+my $ipfam = $ARGV[1];
+my $org = $ARGV[2];
+#my $pfamPredictions = "../Data/Arabidopsis/pfam_predictions.tab";
+#my $ipfam = "../Data/iPfam/iPfam_domain_interactions.tab";
+#my $org = "Ara";
 my $resultsDir = "../Results";
 
 if (-e $pfamPredictions) {
