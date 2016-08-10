@@ -12,9 +12,10 @@ if ($#ARGV < 0) {
 |-----------------------------------------------------------|
 | This program will generate a list of domain-domain,       |
 | protein-protein, and gene-gene interactions for an        |
-| organism. Requires 3 inputs: a list of pfam domains       |
+| organism. Requires 4 inputs: a list of pfam domains       |
 | predicted for the proteins of this organism, a list of    |
-| pfam domains predicted to interact, and an organism code. |
+| pfam domains predicted to interact, an organism code,     |
+| and the folder to save the results to.                    |
 |-----------------------------------------------------------|
 | Syntax - generateInteractions.pl                          |
 |             pfamPredictions                               |
@@ -22,11 +23,12 @@ if ($#ARGV < 0) {
 |             organism                                      |
 |                -Ara                                       |
 |                -Maize                                     |
+|             resultsFolder                                 |
 |                                                           |
 =============================================================
 };
 	exit;
-} elsif ($#ARGV < 2) {
+} elsif ($#ARGV < 3) {
 	print "Please provide all required arguments\n";
 	exit;
 }
@@ -34,10 +36,11 @@ if ($#ARGV < 0) {
 my $pfamPredictions = $ARGV[0];
 my $ipfam = $ARGV[1];
 my $org = $ARGV[2];
+my $resultsDir = $ARGV[3];
 #my $pfamPredictions = "../Data/Arabidopsis/pfam_predictions.tab";
 #my $ipfam = "../Data/iPfam/iPfam_domain_interactions.tab";
 #my $org = "Ara";
-my $resultsDir = "../Results";
+#my $resultsDir = "../Results";
 
 if (-e $pfamPredictions) {
 	print "Using $pfamPredictions as pfamPredictions\n";
