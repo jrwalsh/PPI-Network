@@ -65,14 +65,17 @@ print "Generating a domain-domain interaction list\n";
 `join --header -1 1 -2 1 $resultsDir/pfam_predictions.tab.sorted $resultsDir/iPfam_domain_interactions.tab.sorted > $resultsDir/domain_interactions`;
 
 # Sort the domain-domain interactions
-`(head -n 1 $resultsDir/domain_interactions && tail -n +2 $resultsDir/domain_interactions | sort -k 6) > $resultsDir/domain_interactions.sorted`;
+`(head -n 1 $resultsDir/domain_interactions && tail -n +2 $resultsDir/domain_interactions | sort -k 8) > $resultsDir/domain_interactions.sorted`;
 
 # Join the partner domain back to the proteins they were predicted on to generate a protein-protein network
 print "Generating a protein-protein interaction list\n";
-`join --header -1 6 -2 1 $resultsDir/domain_interactions.sorted $resultsDir/pfam_predictions.tab.sorted  > $resultsDir/protein_interactions.tmp`;
+`join --header -1 8 -2 1 $resultsDir/domain_interactions.sorted $resultsDir/pfam_predictions.tab.sorted  > $resultsDir/protein_interactions.tmp`;
+
+# Individual domain interactions that occur between a protein pair
+`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp > $resultsDir/protein_domain_interactions`;
 
 # Remove unused columns in the protein-protein network
-`cut --delimiter=" " -f3,8 $resultsDir/protein_interactions.tmp > $resultsDir/protein_interactions.tmp2`;
+`cut --delimiter=" " -f3,10 $resultsDir/protein_interactions.tmp > $resultsDir/protein_interactions.tmp2`;
 
 # Remove duplication that occurs when the same domain-domain interaction occurs between two proteins
 `tail -n +2 $resultsDir/protein_interactions.tmp2 | sort | uniq > $resultsDir/protein_interactions.tmp3`;
@@ -100,9 +103,10 @@ close $out;
 # Depending on the organism, remove the protein identifiers, leaving only gene-gene interactions
 print "Generating a gene-gene interaction list\n";
 if ($org eq "Maize") {
+	print "Using organism Maize protein naming conventions to aggregate proteins into genes\n";
 	`sed -e 's/_P[0-9][0-9]//g' -e 's/_FGP[0-9][0-9][0-9]//g' $resultsDir/protein_interactions > $resultsDir/gene_interactions.tmp`;
 } elsif ($org eq "Ara") {
-	print "Using organism Ara\n";
+	print "Using organism Arabidopsis protein naming conventions to aggregate proteins into genes\n";
 	`sed -e 's/\\.[0-9][0-9]\\?//g' $resultsDir/protein_interactions > $resultsDir/gene_interactions.tmp`;
 } else {
 	print "Unknown organism, I don't know how to merge proteins-protein interactions into gene-gene interactions\n";
