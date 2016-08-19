@@ -71,9 +71,6 @@ print "Generating a domain-domain interaction list\n";
 print "Generating a protein-protein interaction list\n";
 `join --header -1 8 -2 1 $resultsDir/domain_interactions.sorted $resultsDir/pfam_predictions.tab.sorted  > $resultsDir/protein_interactions.tmp`;
 
-# Individual domain interactions that occur between a protein pair
-`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp > $resultsDir/protein_domain_interactions`;
-
 # Remove unused columns in the protein-protein network
 `cut --delimiter=" " -f3,10 $resultsDir/protein_interactions.tmp > $resultsDir/protein_interactions.tmp2`;
 
@@ -116,6 +113,25 @@ if ($org eq "Maize") {
 # Remove duplication that occurs when multiple protein-protein interactions exist between 2 genes
 `sort $resultsDir/gene_interactions.tmp | uniq > $resultsDir/gene_interactions`;
 
+
+
+
+#--------------------------------------------------------------------#
+# Individual domain interactions that occur between a protein pair
+#`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp > $resultsDir/protein_domain_interactions`;
+`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp | awk '{gsub(/\..*$/,"",$3)}1' | awk '{gsub(/\..*$/,"",$6)}1' | sort | uniq > $resultsDir/gene_domain_interactions.tmp`;
+# Does the above really represent?  Diff isoforms may have diff start end values, but that doesn't necessarily imply another instance of that domain.
+# The gene_domain_interactions file can answer the question "how many total interactions are possible between each pair of genes?" but I still need to write a script to actually count them.
+
+# How many unique domain interactions occur between each pair of interacting genes?
+`cut --delimiter=" " -f1,2,3,6 gene_domain_interactions | sort | uniq -c | sort > gene_unique_domain_interactions`;
+
+# Reorder columns for easier counting
+`cat protein_domain_interactions | awk -v OFS='\t' '{print $3, $6, $1, $2, $4, 52, $7, $8}' | sort > protein_domain_interactions.ordered`;
+`cat protein_domain_interactions | awk '{gsub(/\..*$/,"",$3)}1' | awk '{gsub(/\..*$/,"",$6)}1' | awk -v OFS='\t' '{print $3, $6, $1, $2, $4, $5, $7, $8}' | sort | uniq > $resultsDir/gene_domain_interactions`;
+
+
+#--------------------------------------------------------------------#
 # Cleanup unused files
 print "Cleaning temporary files\n";
 `rm $resultsDir/pfam_predictions.tab.sorted`;
@@ -129,5 +145,6 @@ print "Cleaning temporary files\n";
 #`rm $resultsDir/protein_interactions`;
 `rm $resultsDir/gene_interactions.tmp`;
 #`rm $resultsDir/gene_interactions`;
+#`rm $resultsDir/gene_domain_interactions.tmp`;
 
 print "Done!\n";
