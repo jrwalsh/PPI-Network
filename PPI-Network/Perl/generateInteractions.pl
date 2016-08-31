@@ -117,18 +117,18 @@ if ($org eq "Maize") {
 
 
 #--------------------------------------------------------------------#
-# Individual domain interactions that occur between a protein pair
-#`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp > $resultsDir/protein_domain_interactions`;
-`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp | awk '{gsub(/\..*$/,"",$3)}1' | awk '{gsub(/\..*$/,"",$6)}1' | sort | uniq > $resultsDir/gene_domain_interactions.tmp`;
-# Does the above really represent?  Diff isoforms may have diff start end values, but that doesn't necessarily imply another instance of that domain.
-# The gene_domain_interactions file can answer the question "how many total interactions are possible between each pair of genes?" but I still need to write a script to actually count them.
-
-# How many unique domain interactions occur between each pair of interacting genes?
-`cut --delimiter=" " -f1,2,3,6 gene_domain_interactions | sort | uniq -c | sort > gene_unique_domain_interactions`;
-
-# Reorder columns for easier counting
-`cat protein_domain_interactions | awk -v OFS='\t' '{print $3, $6, $1, $2, $4, 52, $7, $8}' | sort > protein_domain_interactions.ordered`;
-`cat protein_domain_interactions | awk '{gsub(/\..*$/,"",$3)}1' | awk '{gsub(/\..*$/,"",$6)}1' | awk -v OFS='\t' '{print $3, $6, $1, $2, $4, $5, $7, $8}' | sort | uniq > $resultsDir/gene_domain_interactions`;
+## Individual domain interactions that occur between a protein pair
+##`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp > $resultsDir/protein_domain_interactions`;
+#`cut --delimiter=" " -f1,2,3,7,8,10,14,15 $resultsDir/protein_interactions.tmp | awk '{gsub(/\..*$/,"",$3)}1' | awk '{gsub(/\..*$/,"",$6)}1' | sort | uniq > $resultsDir/gene_domain_interactions.tmp`;
+## Does the above really represent?  Diff isoforms may have diff start end values, but that doesn't necessarily imply another instance of that domain.
+## The gene_domain_interactions file can answer the question "how many total interactions are possible between each pair of genes?" but I still need to write a script to actually count them.
+#
+## How many unique domain interactions occur between each pair of interacting genes?
+#`cut --delimiter=" " -f1,2,3,6 gene_domain_interactions | sort | uniq -c | sort > gene_unique_domain_interactions`;
+#
+## Reorder columns for easier counting
+#`cat protein_domain_interactions | awk -v OFS='\t' '{print $3, $6, $1, $2, $4, 52, $7, $8}' | sort > protein_domain_interactions.ordered`;
+#`cat protein_domain_interactions | awk '{gsub(/\..*$/,"",$3)}1' | awk '{gsub(/\..*$/,"",$6)}1' | awk -v OFS='\t' '{print $3, $6, $1, $2, $4, $5, $7, $8}' | sort | uniq > $resultsDir/gene_domain_interactions`;
 
 
 #--------------------------------------------------------------------#
@@ -146,5 +146,11 @@ print "Cleaning temporary files\n";
 `rm $resultsDir/gene_interactions.tmp`;
 #`rm $resultsDir/gene_interactions`;
 #`rm $resultsDir/gene_domain_interactions.tmp`;
+
+#print "HC_Size\tPredictions\tTP\n";
+#my $hcSize = `wc -l ../Data/Arabidopsis/predictable_HC_interactions`;
+#my $predictions = `wc -l $resultsDir/gene_interactions`;
+#my $TP = `grep -xF -f ../Data/Arabidopsis/predictable_HC_interactions $resultsDir/gene_interactions  | wc -l`;
+#print "$hcSize\t$predictions\t$TP\n";
 
 print "Done!\n";
